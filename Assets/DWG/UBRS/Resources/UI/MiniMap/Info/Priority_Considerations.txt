@@ -1,0 +1,49 @@
+Here is just a thought or two to share on priority considerations: While yes,
+this can be arguable perhaps for some, there are a couple of things that
+should always be higher on the priorities hierarchy when starting on a scene
+in your project and here are a few of my thoughts on such in order of
+importance:
+
+Terrain Plane * 
+Terrain * 
+Player Controller * 
+Compass * 
+MiniMap *
+
+Everything else.......
+
+* Note - Terrain Plane & Terrain - This should go without saying as it is
+  obvious why this is important regardless if it is a test terrain, a fully
+  done up terrain, a environment done probuilder, even a pre-made terrain
+  asset, etc, etc, obviously you need somewhere to do stuff, lols, but here
+  is another thought and it involves another early high priority, can you
+  guess what it is?! The Compass! As when setting up the controller and
+  compass , you may very well need to rotate the environment if say you have
+  odd configurations when including your controller and or terrain..., this
+  is something that may wind up being a much larger pain in the arse later
+  down the road if such is not set as an early priority to place important
+  considerations on. Again, just a thought... :)
+
+* Note: Player Controller  - even if a initially using a test controller that
+  you swap out later it is still important because a-lot of things rely on
+  such just for a few examples: the Compass! hmm, same goes for any future
+  Minimap, and even potentially any future WorldMap addition..., etc, etc.
+  Again, just a thought... :)
+
+* Note: Compass - there is a reason why I make these suggestions and it is due
+  to considering using a compass and yes this will always be a priority
+  before adding a MiniMap and or WorldMap later on priorities list..., etc,
+  etc. Again, just a thought... :)
+
+* Note: MiniMap - there is a reason why I make these suggestions and it is due
+  to considering using a compass and also a MiniMap. Yes, this will always be
+  a priority to say get sorted out before say adding a WorldMap later on the
+  priorities list..., and or any other stuff that may come after, etc, etc.
+  Again, just a thought... :)
+
+Ok, hopefully these few thoughts make sense and one understands why one took
+the time to mention such, as it might be something not thought of and or
+overlooked and such suggestions might be kindly helpful for some. Ok that is
+pretty much it on that and on that consideration, mkay, then and after...,
+everything else can follow after in any determined priority classification.
+Again, just a thought... :)
