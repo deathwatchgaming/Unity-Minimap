@@ -3,8 +3,7 @@ MiniMap
 
 Description:
 
-
-Notes:
+Create a Minimap for your Unity projects.
 
 
 Manual Setup Instruction:
