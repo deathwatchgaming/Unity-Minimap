@@ -344,8 +344,12 @@ Mini Map Follow (Script):
 -------------------------
 
 Script: DWG_MiniMapFollow
-Rotate With Player:
+Rotate With Player: "Checked" -> Yes 
 Mini Map Height: 1100
+Mini Map Enabled: "Checked" -> Yes 
+Mask: Mask (Raw Image)
+Mini Map_Texture: MiniMapTexture (Raw Image)
+Mini Map Frame: MiniMapFram (Raw Image)
 
 Note: "Rotate With Player" is optional and is up to your preference to use or not.
 
