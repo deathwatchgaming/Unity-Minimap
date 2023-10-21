@@ -2,7 +2,7 @@
 
  Create a MiniMap for your Unity projects. And if desired also create Tactical Markers functionality for the Minimap.
 
-Setup Info:
+Setup Info(s):
 
  1) Simple manual setup details for "MiniMap" can be found in the related DIR: "Info" via: "MiniMapReadMe.txt"
 
@@ -12,11 +12,11 @@ Setup Info:
 
  * MiniMap:
 
- https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/MiniMapReadMe.txt
+   https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/MiniMapReadMe.txt
 
  * Tactical Markers:
 
- https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/TacticalMarkersReadMe.txt
+   https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/TacticalMarkersReadMe.txt
 
 
  EXTRAS:
@@ -34,7 +34,7 @@ Description:
 
 Setup Info:
 
- Simple manual setup details can be found in the related DIR: "Info" via TestStuff_ReadMe.txt
+ Simple manual setup details can be found in the related DIR: "Info" via: "TestStuff_ReadMe.txt"
 
  https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/TestStuff_Controller/Info/TestStuff_ReadMe.txt
 
