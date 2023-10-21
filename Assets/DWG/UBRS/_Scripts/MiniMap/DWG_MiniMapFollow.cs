@@ -9,25 +9,23 @@ namespace UBRS.DWG_MiniMapFollow
     public class DWG_MiniMapFollow : MonoBehaviour
     {
 
-        // Private - Game Object - Player
+        // Private - GameObject - Player
         private GameObject player;
 
-        // Public - Bool - Rotate With Player - True
+        // Public - Bool - RotateWithPlayer - True
         public bool RotateWithPlayer = true;
 
-        // Public - Float - MiniMap Height   
+        // Public - Float - MiniMapHeight   
         public float MiniMapHeight = 1100;
 
         // Private - Transform - Original Parent    
         private Transform origParent;
 
-        // Private - Transform - Player Parent    
+        // Private - Transform - PlayerParent    
         private Transform PlayerParent;
 
         // Public - Bool - MiniMapEnabled - True
         public bool MiniMapEnabled = true; 
-
-        // RawImage(s)
 
         // Public - RawImage - Mask - Image
         public RawImage Mask;
@@ -38,26 +36,27 @@ namespace UBRS.DWG_MiniMapFollow
         // Public - RawImage - MiniMapFrame - Image
         public RawImage MiniMapFrame;
 
-        // Use this for initialization
+        // Use This For Initialization
+
         // Public - Void - Start
         public void Start()
         {
 
-            // Player - Game Object - Find Game Object With Tag - Player
+            // Player - GameObject - FindGameObjectWithTag - Player
             player = GameObject.FindGameObjectWithTag ("Player");
 
             // Transform - Position - New Vector3 - Player - Transform - Position X - MiniMapHeight - Player - Transform - Position Z
             transform.position = new Vector3(player.transform.position.x, MiniMapHeight, player.transform.position.z);
 
-            // Original Parent - Transform - Parent
+            // OriginalParent - Transform - Parent
             origParent = transform.parent;
 
-            // Player Parent - Player - Transform
+            // PlayerParent - Player - Transform
             PlayerParent = player.transform;
 
         } // Close - Public - Void - Start
 
-        // Update is called once per frame
+        // Update Is Called Once Per Frame
 
         // Public - Void - Update
         public void Update()
@@ -107,35 +106,35 @@ namespace UBRS.DWG_MiniMapFollow
 
         } // Close - Public - Void - Update
         
-        // LateUpdate is called once per frame
+        // LateUpdate Is Called Once Per Frame
         
         // Public - Void - LateUpdate
         public void LateUpdate ()
         {
 
-            // If Rotate With Player Is True
+            // If RotateWithPlayer Is True
             if (RotateWithPlayer == true)
             {
 
-                // Transform - Set Parent - Player Parent
+                // Transform - SetParent - PlayerParent
                 transform.SetParent(PlayerParent);
 
                 // Transform - Position - New Vector3 - Transform - Position X - MiniMapHeight - Player - Transform - Position Z
                 transform.position = new Vector3(transform.position.x, MiniMapHeight, transform.position.z);
 
-            } // Close - If Rotate With Player Is True
+            } // Close - If RotateWithPlayer Is True
 
-            // Else If Rotate With Player Is False
+            // Else If RotateWithPlayer Is False
             else if (RotateWithPlayer == false)
             {
 
-                // Transform - Set Parent - Original Parent
+                // Transform - SetParent - OriginalParent
                 transform.SetParent(origParent);
 
                 // Transform - Position - New Vector3 - Player - Transform - Position X - MiniMapHeight - Player - Transform - Position Z
                 transform.position = new Vector3(player.transform.position.x, MiniMapHeight, player.transform.position.z);
 
-            } // Close - Set Parent - Original Parent
+            } // Close - SetParent - OriginalParent
 
         }  // Close - Public - Void - LateUpdate
 
