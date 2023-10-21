@@ -15,7 +15,7 @@ namespace UBRS.DWG_TacticalMarker
         // Private - Float - MarkerOffset
         private float markerOffset;
 
-        // Private - FPCamera
+        // Private - Camera - FPCamera
         private Camera FPCamera;
 
         // Private - Float - MinimapCamHeight
@@ -50,7 +50,7 @@ namespace UBRS.DWG_TacticalMarker
 
         } // Close - Void - Start
 
-        // Update is called once per frame
+        // Update Is Called Once Per Frame
 
         // Void - Update
         void Update()
@@ -73,7 +73,7 @@ namespace UBRS.DWG_TacticalMarker
                     // PlaceMarker
                     PlaceMarker();
 
-                } // close - If Input - GetKeyUp - KeyCode T
+                } // Close - If Input - GetKeyUp - KeyCode T
 
             } // Close - If TacticalMarkerEnabled Is True
 
@@ -88,7 +88,6 @@ namespace UBRS.DWG_TacticalMarker
                 Debug.Log("Tactical Markers is disabled.");
 
             } // Close - Else If TacticalMarkerEnabled Is False
-
 
         } // Close - Void - Update
 
