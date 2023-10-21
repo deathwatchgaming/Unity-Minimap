@@ -1,6 +1,5 @@
-﻿// Using - Engine - UI
+﻿// Using - Engine
 using UnityEngine;
-using UnityEngine.UI;
 
 // Namespace - UBRS.DWG_TacticalMarker
 namespace UBRS.DWG_TacticalMarker
