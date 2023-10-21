@@ -4,13 +4,17 @@
 
 Setup Info:
 
- Simple manual setup details can be found in the related DIR: "Info" via MiniMapReadMe.txt
+ 1) Simple manual setup details for "MiniMap" can be found in the related DIR: "Info" via: "MiniMapReadMe.txt"
 
- MiniMap:
+ 2) Simple manual setup details for "Tactical Markers" can be found in the related DIR: "Info" via: "TacticalMarkersReadMe.txt"
+
+ ReadMe(s):
+
+ * MiniMap:
 
  https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/MiniMapReadMe.txt
 
- Tactical Markers:
+ * Tactical Markers:
 
  https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/TacticalMarkersReadMe.txt
 
