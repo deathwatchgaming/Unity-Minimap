@@ -58,6 +58,7 @@ namespace UBRS.DWG_MiniMapFollow
         } // Close - Public - Void - Start
 
         // Update is called once per frame
+
         // Public - Void - Update
         public void Update()
         {
@@ -78,7 +79,7 @@ namespace UBRS.DWG_MiniMapFollow
                 // GetComponent - DWG_MiniMapFollow  - Enabled - True
                 GetComponent<DWG_MiniMapFollow>().enabled = true;
 
-                // Debug - Log - Compass Enabled
+                // Debug - Log - MiniMap Enabled
                 Debug.Log("The MiniMap is enabled.");
 
             } // Close - If MiniMapEnabled Is True
@@ -99,7 +100,7 @@ namespace UBRS.DWG_MiniMapFollow
                 // GetComponent - DWG_MiniMapFollow - Enabled - False
                 GetComponent<DWG_MiniMapFollow>().enabled = false;
 
-                // Debug - Log - Compass Disabled
+                // Debug - Log - MiniMap Disabled
                 Debug.Log("The MiniMap is disabled.");
 
             } // Close - Else If MiniMapEnabled Is False
@@ -107,6 +108,7 @@ namespace UBRS.DWG_MiniMapFollow
         } // Close - Public - Void - Update
         
         // LateUpdate is called once per frame
+        
         // Public - Void - LateUpdate
         public void LateUpdate ()
         {

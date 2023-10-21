@@ -1,13 +1,18 @@
 # Unity-Minimap
 
- Create a MiniMap for your Unity projects.
-
+ Create a MiniMap for your Unity projects. And if desired also create Tactical Markers functionality for the Minimap.
 
 Setup Info:
 
  Simple manual setup details can be found in the related DIR: "Info" via MiniMapReadMe.txt
 
+ MiniMap:
+
  https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/MiniMapReadMe.txt
+
+ Tactical Markers:
+
+ https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/UI/MiniMap/Info/TacticalMarkersReadMe.txt
 
 
  EXTRAS:
