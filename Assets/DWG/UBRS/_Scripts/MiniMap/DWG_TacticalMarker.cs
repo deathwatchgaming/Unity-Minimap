@@ -63,7 +63,7 @@ namespace UBRS.DWG_TacticalMarker
                 // GetComponent - DWG_TacticalMarker - Enabled - True
                 GetComponent<DWG_TacticalMarker>().enabled = true;
 
-                // Debug - Log - Compass Enabled
+                // Debug - Log - TacticalMarker Enabled
                 Debug.Log("Tactical Markers is enabled.");
 
                 // If Input - GetKeyUp - KeyCode T
@@ -84,7 +84,7 @@ namespace UBRS.DWG_TacticalMarker
                 // GetComponent - DWG_TacticalMarker - Enabled - False
                 GetComponent<DWG_TacticalMarker>().enabled = false;
 
-                // Debug - Log - Disabled
+                // Debug - Log - TacticalMarker Disabled
                 Debug.Log("Tactical Markers is disabled.");
 
             } // Close - Else If TacticalMarkerEnabled Is False
