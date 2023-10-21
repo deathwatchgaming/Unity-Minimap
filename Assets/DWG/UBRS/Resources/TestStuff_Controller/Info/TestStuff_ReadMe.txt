@@ -96,6 +96,8 @@ In "FPSController" Create: 3D Object "Capsule" And Rename To:
 
 "Player Capsule"
 
+Remove "Capsule Collider" from: "Player Capsule"
+
 Position: X: 0 Y: 1 Z: 0
 Rotation: X: 0 Y: 0 Z: 0
 Scale:    X: 1 Y: 1 Z: 1
