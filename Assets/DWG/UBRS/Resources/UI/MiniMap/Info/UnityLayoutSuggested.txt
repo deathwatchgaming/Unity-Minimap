@@ -77,7 +77,7 @@ with similar layout but for when using on my hdmi tv screen.
 
 Also note: simply that by the way I have things setup for Middle (Top) and
 Middle (Bottom), that this is handy so I can simply at times drag resize one
-down larger and up smaller or up larger and udown smaller when needs
+down larger and up smaller or up larger and down smaller when needs
 require.
 
 Ie: 
