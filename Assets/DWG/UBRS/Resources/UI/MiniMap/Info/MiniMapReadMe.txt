@@ -3,7 +3,7 @@ MiniMap
 
 Description:
 
-Create a Minimap for your Unity projects.
+Create a MiniMap for your Unity projects.
 
 
 Manual Setup Instruction:
@@ -89,7 +89,7 @@ ________________________________________________________________________________
 
 5.A) Inside "Canvas", create an "Empty" and rename it to "MiniMap"
 
-Note: this will be our Minimap "holder".
+Note: this will be our MiniMap "holder".
 
 5.B) Make sure the "Layer" is set as: "UI"
 
@@ -300,7 +300,7 @@ Rotation: X: 0  Y: 0  Z: 0
 Scale:    X: 1  Y: 1  Z: 1
 
 11.D) Now we need to make this independent, so we need to drag this outside of
-      everything and place it at the very bottom of scene below all. In essense
+      everything and place it at the very bottom of scene below all. In essence
       (not inside anything) as this will grab the world-space position. You will 
       now see some numbers change as that is now grabbing the world-space position.
 

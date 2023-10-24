@@ -144,7 +144,7 @@ That completes that part for ping animation.
 Step 7: Create Prefab: "TacticalMarker"
 ___________________________________________________________________________________
 
-7.A) Drag the holder: "TacticalMarker" with eveything contained into project to 
+7.A) Drag the holder: "TacticalMarker" with everything contained into project to 
      make a prefab.
 
 7.B) Now, Since the prefab is made, we can go ahead and delete the "TacticalMarker"
@@ -160,7 +160,7 @@ ________________________________________________________________________________
 
 8.B) Add the prefab: "TacticalMarker" to script settings
 
-DWG Tactical Marker (Scipt)
+DWG Tactical Marker (Script)
 ----------------------------
 
 Script: DWG_TacticalMarker

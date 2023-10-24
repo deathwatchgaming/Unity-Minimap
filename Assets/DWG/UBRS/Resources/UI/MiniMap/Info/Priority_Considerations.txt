@@ -14,7 +14,7 @@ Everything else.......
 
 * Note - Terrain Plane & Terrain - This should go without saying as it is
   obvious why this is important regardless if it is a test terrain, a fully
-  done up terrain, a environment done probuilder, even a pre-made terrain
+  done up terrain, a environment done ProBuilder, even a pre-made terrain
   asset, etc, etc, obviously you need somewhere to do stuff, lols, but here
   is another thought and it involves another early high priority, can you
   guess what it is?! The Compass! As when setting up the controller and
@@ -27,7 +27,7 @@ Everything else.......
 * Note: Player Controller  - even if a initially using a test controller that
   you swap out later it is still important because a-lot of things rely on
   such just for a few examples: the Compass! hmm, same goes for any future
-  Minimap, and even potentially any future WorldMap addition..., etc, etc.
+  MiniMap, and even potentially any future WorldMap addition..., etc, etc.
   Again, just a thought... :)
 
 * Note: Compass - there is a reason why I make these suggestions and it is due
