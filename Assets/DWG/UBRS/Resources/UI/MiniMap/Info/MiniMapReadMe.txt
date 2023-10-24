@@ -207,9 +207,18 @@ Texture: MiniMapTexture
 
 -----------------------------------------------------------------------------------
 
-Step 9: Create in Canvas -> Cursor (RawImage)
+Step 9 (Optional *): Create in Canvas -> Cursor (RawImage)
 ___________________________________________________________________________________
 
+
+* Note: this step is optional and is up to your preference.
+
+* Also Note: If you have already applied this say for example via the compass
+  setup instructions, then you can simply ignore/skip this step and simply
+  continue on to step 10.
+
+
+Else if not, and you want the cursor then you can continue here:
 
 9.A) Go back into "Canvas" and create "RawImage" and name it: "Cursor"
 
@@ -271,7 +280,7 @@ Mesh Renderer:
 In Lighting:
 
 Cast Shadows: Off
-Recieve Shadows: Un-check
+Receive Shadows: Un-check
 
 10.E) Add material by dragging "DWG_PlayerIcon.png" onto Inspector below component
       button.
