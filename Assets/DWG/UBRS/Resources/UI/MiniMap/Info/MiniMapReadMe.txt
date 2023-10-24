@@ -126,6 +126,13 @@ Position: X: 0  Y: 0  Z: 0
 Width: 256
 Height: 256
 
+
+Raw Image
+------------------
+
+Texture: DWG_MM_Mask
+
+
 6.C) Add Component: Mask
 
 Modify:
@@ -159,7 +166,7 @@ Height: 256
 
 Modify:
 
-Raw Image (Script)
+Raw Image
 ------------------
 
 Texture: DWG_MM_Outer
@@ -192,7 +199,7 @@ Now, go back into "MiniMap_Texture" inspector and...
 
 Modify:
 
-Raw Image (Script)
+Raw Image
 ------------------
 
 Texture: MiniMapTexture
@@ -220,7 +227,7 @@ Width: 64
 Height: 64
 
 
-Raw Image (Script)
+Raw Image
 ------------------
 
 Texture: DWG_CursorA
