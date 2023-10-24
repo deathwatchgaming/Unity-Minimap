@@ -16,6 +16,22 @@ Manual Setup Instruction:
 Step 1: Import Images:
 ___________________________________________________________________________________
 
+Texture / Images:
+-----------------
+
+MiniMap:
+--------
+
+DWG_MM_mask.png
+DWG_MM_outer.png
+DWG_PlayerIcon.png
+
+Cursor:
+-------
+
+DWG_CursorA.png
+
+
 Import Images and select them and modify settings for each as found below:
 
 Texture Type: Sprite (2D and UI)
