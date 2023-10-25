@@ -223,7 +223,7 @@ Texture: MiniMapTexture
 
 -----------------------------------------------------------------------------------
 
-Step 9 (Optional *): Create in Canvas -> Cursor (RawImage)
+Step 9 (Optional *): Create in Canvas -> Cursor (Holder) -> Cursor Image (RawImage)
 ___________________________________________________________________________________
 
 
@@ -236,7 +236,9 @@ ________________________________________________________________________________
 
 Else if not, and you want the cursor then you can continue here:
 
-9.A) Go back into "Canvas" and create "RawImage" and name it: "Cursor"
+
+9.A) Go back into "Canvas" and create "Empty" and name it: "Cursor" *
+     * This is a "Holder" that we will use to attach a script to.
 
 9.B) Make sure the "Layer" is set as: "UI"
 
@@ -252,10 +254,44 @@ Width: 64
 Height: 64
 
 
-Raw Image
+9.C) Now go into "Cursor", and create "RawImage" and name it: "Cursor Image"
+
+9.D) Make sure the "Layer" is set as: "UI"
+
+Modify:
+
+Rect Transform
+---------------
+
+Anchors: Middle & Center
+
+Position: X: 0  Y: 0  Z: 0
+Width: 64
+Height: 64
+
+
+Add Raw Image
 ------------------
 
 Texture: DWG_CursorA
+
+
+Last Step: Add Component / Script
+---------------------------------
+
+9.E) In: UI -> Canvas - Cursor
+     
+     Add component / script: "DWG_Cursor.cs"
+
+9.F) Ok, now fill out the related settings:
+
+
+For -> DWG_Cursor (Script):
+--------------------------------
+
+Script: DWG_Cursor
+Cursor Image : Cursor Image (Raw Image)
+Cursor Enabled: Check * Checked by default
 
 
 -----------------------------------------------------------------------------------
