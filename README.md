@@ -26,6 +26,10 @@ Setup Info(s):
  TestStuff Controller
 -------------------------
 
+ Note: while this was included in this repo, it has now been removed from this repository and placed in its own repo found at:
+
+ https://github.com/deathwatchgaming/Unity-TestStuff_FPSController
+
 Description:
 
  The "MiniMap" needs some sort of "characterController" to work, thus one would not be able to test such 
@@ -38,7 +42,7 @@ Setup Info:
 
  * ReadMe:
 
-   https://github.com/deathwatchgaming/Unity-Minimap/blob/main/Assets/DWG/UBRS/Resources/TestStuff_Controller/Info/TestStuff_ReadMe.txt
+  https://github.com/deathwatchgaming/Unity-TestStuff_FPSController/blob/main/Assets/DWG/UBRS/Resources/TestStuff_FPSController/Info/TestStuff_FPSControllerReadMe.txt
 
  
  Notes / Considerations / Suggestions:
