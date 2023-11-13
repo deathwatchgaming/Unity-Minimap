@@ -1,9 +1,18 @@
+/*
+*
+*  Name: DWG Cursor
+*  File: DWG_Cursor.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
 // Using - Engine - UI
 using UnityEngine;
 using UnityEngine.UI;
 
-// Namespace - UBRS.DWG_Cursor
-namespace UBRS.DWG_Cursor
+// Namespace - DWG.UBRS.DWG_Cursor
+namespace DWG.UBRS.DWG_Cursor
 {
     // Public - Class - DWG_Cursor
     public class DWG_Cursor : MonoBehaviour
@@ -55,4 +64,4 @@ namespace UBRS.DWG_Cursor
 
     } // Close - Public - Class - DWG_Cursor
 
-} // Close - Namespace - UBRS.DWG_Cursor
+} // Close - Namespace - DWG.UBRS.DWG_Cursor
