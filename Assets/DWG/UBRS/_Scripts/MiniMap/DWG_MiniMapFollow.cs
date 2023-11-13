@@ -1,9 +1,18 @@
+/*
+*
+*  Name: DWG Minimap
+*  File: DWG_MiniMapFollow.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
 // Using - Engine - UI
 using UnityEngine;
 using UnityEngine.UI;
 
-// Namespace - UBRS.DWG_MiniMapFollow
-namespace UBRS.DWG_MiniMapFollow
+// Namespace - DWG.UBRS.DWG_MiniMapFollow
+namespace DWG.UBRS.DWG_MiniMapFollow
 {
     // Public - Class - DWG_MiniMapFollow
     public class DWG_MiniMapFollow : MonoBehaviour
@@ -140,4 +149,4 @@ namespace UBRS.DWG_MiniMapFollow
 
     } // Close - Public - Class - DWG_MiniMapFollow
 
-} // Close - Namespace - UBRS.DWG_MiniMapFollow
+} // Close - Namespace - DWG.UBRS.DWG_MiniMapFollow

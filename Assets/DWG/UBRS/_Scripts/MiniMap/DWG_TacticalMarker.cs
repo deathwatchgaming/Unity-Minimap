@@ -1,8 +1,17 @@
-﻿// Using - Engine
+﻿/*
+*
+*  Name: DWG MiniMap Tactical Markers
+*  File: DWG_TacticalMarker.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
+// Using - Engine
 using UnityEngine;
 
-// Namespace - UBRS.DWG_TacticalMarker
-namespace UBRS.DWG_TacticalMarker
+// Namespace - DWG.UBRS.DWG_TacticalMarker
+namespace DWG.UBRS.DWG_TacticalMarker
 {
 
     // Public - Class - DWG_TacticalMarker
@@ -145,4 +154,4 @@ namespace UBRS.DWG_TacticalMarker
 
     } // Close - Public - Class - DWG_TacticalMarker
 
-} // Close - Namespace - UBRS.DWG_TacticalMarker
+} // Close - Namespace - DWG.UBRS.DWG_TacticalMarker
