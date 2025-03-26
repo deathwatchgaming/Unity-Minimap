@@ -17,7 +17,6 @@ namespace DWG.UBRS.DWG_MiniMapFollow
     // Public - Class - DWG_MiniMapFollow
     public class DWG_MiniMapFollow : MonoBehaviour
     {
-
         // Private - GameObject - Player
         private GameObject player;
 
@@ -50,7 +49,6 @@ namespace DWG.UBRS.DWG_MiniMapFollow
         // Public - Void - Start
         public void Start()
         {
-
             // Player - GameObject - FindGameObjectWithTag - Player
             player = GameObject.FindGameObjectWithTag ("Player");
 
@@ -70,11 +68,9 @@ namespace DWG.UBRS.DWG_MiniMapFollow
         // Public - Void - Update
         public void Update()
         {
-
             // If MiniMapEnabled Is True
             if (MiniMapEnabled == true)
             {
-
                 // RawImage - Mask - gameObject - SetActive - True
                 Mask.gameObject.SetActive(true);
 
@@ -95,7 +91,6 @@ namespace DWG.UBRS.DWG_MiniMapFollow
             // Else If MiniMapEnabled Is False
             else if (MiniMapEnabled == false) 
             {
-
                 // RawImage - Mask - gameObject - SetActive - False
                 Mask.gameObject.SetActive(false);
 
@@ -120,11 +115,9 @@ namespace DWG.UBRS.DWG_MiniMapFollow
         // Public - Void - LateUpdate
         public void LateUpdate ()
         {
-
             // If RotateWithPlayer Is True
             if (RotateWithPlayer == true)
             {
-
                 // Transform - SetParent - PlayerParent
                 transform.SetParent(PlayerParent);
 
@@ -136,7 +129,6 @@ namespace DWG.UBRS.DWG_MiniMapFollow
             // Else If RotateWithPlayer Is False
             else if (RotateWithPlayer == false)
             {
-
                 // Transform - SetParent - OriginalParent
                 transform.SetParent(origParent);
 

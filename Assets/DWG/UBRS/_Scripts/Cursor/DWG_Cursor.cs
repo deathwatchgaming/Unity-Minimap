@@ -16,8 +16,7 @@ namespace DWG.UBRS.DWG_Cursor
 {
     // Public - Class - DWG_Cursor
     public class DWG_Cursor : MonoBehaviour
-    {
-        
+    {        
         // Public - RawImage - CursorImage - Image
         public RawImage CursorImage;
 
@@ -29,11 +28,9 @@ namespace DWG.UBRS.DWG_Cursor
         // Public - Void - Update
         public void Update()
         {
-
             // If CursorEnabled Is True
             if (CursorEnabled == true)
             {
-
                 // RawImage - CursorImage - gameObject - SetActive - True
                 CursorImage.gameObject.SetActive(true);
 
@@ -47,8 +44,7 @@ namespace DWG.UBRS.DWG_Cursor
 
             // Else If CursorEnabled Is False
             else if (CursorEnabled == false) 
-            {
-                 
+            {                 
                 // RawImage - CursorImage - gameObject - SetActive - False
                 CursorImage.gameObject.SetActive(false);
 

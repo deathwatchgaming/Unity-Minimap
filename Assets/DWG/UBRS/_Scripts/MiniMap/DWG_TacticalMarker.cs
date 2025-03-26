@@ -13,11 +13,9 @@ using UnityEngine;
 // Namespace - DWG.UBRS.DWG_TacticalMarker
 namespace DWG.UBRS.DWG_TacticalMarker
 {
-
     // Public - Class - DWG_TacticalMarker
     public class DWG_TacticalMarker : MonoBehaviour
     {
-
         // Public - GameObject - TacticalMarker
         public GameObject TacticalMarker;
 
@@ -47,7 +45,6 @@ namespace DWG.UBRS.DWG_TacticalMarker
         // Void - Start
         void Start()
         {
-
             // FPCamera - GetComponentInChildren - Camera
             FPCamera = GetComponentInChildren<Camera>();
 
@@ -64,11 +61,9 @@ namespace DWG.UBRS.DWG_TacticalMarker
         // Void - Update
         void Update()
         {
-
             // If TacticalMarkerEnabled Is True
             if (TacticalMarkerEnabled == true)
             {
-
                 // GetComponent - DWG_TacticalMarker - Enabled - True
                 GetComponent<DWG_TacticalMarker>().enabled = true;
 
@@ -78,7 +73,6 @@ namespace DWG.UBRS.DWG_TacticalMarker
                 // If Input - GetKeyUp - KeyCode T
                 if (Input.GetKeyUp(KeyCode.T))
                 {
-
                     // PlaceMarker
                     PlaceMarker();
 
@@ -89,7 +83,6 @@ namespace DWG.UBRS.DWG_TacticalMarker
             // Else If TacticalMarkerEnabled Is False
             else if (TacticalMarkerEnabled == false) 
             {
-
                 // GetComponent - DWG_TacticalMarker - Enabled - False
                 GetComponent<DWG_TacticalMarker>().enabled = false;
 
@@ -103,7 +96,6 @@ namespace DWG.UBRS.DWG_TacticalMarker
         // Private - Void - Place Marker
         private void PlaceMarker()
         {
-
             // Ray - New Ray - FPCamera - Transform Position - FPCamera - Transform Forward
             ray = new Ray(FPCamera.transform.position, FPCamera.transform.forward);
 
@@ -112,14 +104,12 @@ namespace DWG.UBRS.DWG_TacticalMarker
             // If - Physics - Raycast - Ray - Out Hit
             if (Physics.Raycast(ray, out hit))
             {
-
                 // Vector3 - Marker Location - New Vector3 - HitPoint X - MarkerOffset - HitPoint Z
                 Vector3 markerLocation = new Vector3(hit.point.x, markerOffset, hit.point.z);
 
                 // If Marker ID Is None
                 if (MARKER_ID == "*NONE*") // No Marker On The Map
                 {
-
                     // GameObject Marker - Instantiate - TacticalMarker - MarkerLocation - Quaternion Identity - Null
                     GameObject marker = Instantiate(TacticalMarker, markerLocation, Quaternion.identity, null);
 
@@ -131,7 +121,6 @@ namespace DWG.UBRS.DWG_TacticalMarker
                 // Else 
                 else
                 {
-
                     // Find The Marker That Exists And Relocate It
 
                     // GameObject - Marker - GameObject - Find - Marker ID
